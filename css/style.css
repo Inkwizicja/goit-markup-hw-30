@@ -330,12 +330,13 @@ background-color: #FFFFFF;
 }
 
 /* our portfolio */
-.portfolio.container {
+
+.portfolio.container container {
    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
 }
-.apps.container container{
+.apps.container container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
