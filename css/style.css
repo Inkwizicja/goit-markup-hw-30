@@ -315,6 +315,7 @@ background-color: #FFFFFF;
 /* padding-top: px; */
 /* padding-bottom: 8px; */
 margin-bottom: 8px; 
+/* text-align: center; */
 
 }
 .team-title {
@@ -326,19 +327,21 @@ letter-spacing: 0.02em;
 color:#434455;
 background-color: #FFFFFF;
 /* padding-bottom: 40px; */
+/* text-align: center; */
 
 }
 
 /* our portfolio */
 
-.portfolio.container container {
-   padding: 32px 16px;
+.portfolio-container  {
+   /* padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none; 
+    border-top: none;  */
 }
-.apps.container container {
+.apps-container  {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+      border-radius: 0px 0px 4px 4px;
     border-top: none;
 }
 .btn-apps {
@@ -366,11 +369,11 @@ margin-bottom: 72px;
 
 }
 .img-list-li {
-    border: 1px solid #e7e9fc;
-  border-radius: 0px 0px 4px 4px;
+    /* border: 1px solid #e7e9fc; */
+
   
   width: calc((100% - 48px) / 3);
-  gap: 48px;
+  /* gap: 48px; */
   /* background-color: #e7e9fc; */
 }
 .img-list-link {
