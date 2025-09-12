@@ -41,21 +41,19 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  /* margin: 0 auto; */
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  
 }
 
 /* header */
 
 
 .header {
-    padding-top: 24px;
-  padding-bottom: 24px;
+
    border-bottom: 1px solid #e7e9fc
 }
 .header-container {
-    width: 1158px;
+    
     display: flex;
    align-items: center;
 }
@@ -93,7 +91,7 @@ padding: 24px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
+    
 }
 .header-menu-link:focus,
 .header-menu-link:hover {
@@ -134,16 +132,9 @@ list-style: none;
 
 }
 .container-solution {
-      color: #ffffff ;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center; 
 max-width: 496px;
-margin-bottom: 48px;
-text-align: center;
+
+
 }
 .solutions-main {
  color: #ffffff ;
@@ -152,10 +143,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
-text-align: center; 
-max-width: 496px;
 margin-bottom: 48px;
-text-align: center;
+text-align: center; 
+
 
 }
 .solutions-btn {
@@ -195,7 +185,7 @@ border: none;
 
 }
 .container-benefits {
-    width: 1128px;
+   
 }
 .visually-hidden {
     position: absolute;
@@ -214,17 +204,7 @@ border: none;
   gap: 24px;
 }
 .benefits-title {
-    /* font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-margin-bottom: 8px;
-width: calc((100% - 72px) / 4); 
- display: flex;
- gap: 24px;
- max-width: 264px; */
+    
 
   font-weight: 500;
   font-size: 20px;
@@ -298,7 +278,7 @@ margin-bottom: 72px;
  .team-name-container {
  padding: 32px 0;
  
- display: flex;
+ display: flex ;
  text-align: center;
 
  
@@ -333,11 +313,8 @@ background-color: #FFFFFF;
 
 /* our portfolio */
 
-.portfolio-container  {
-   /* padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;  */
-}
+.portfolio-container  
+   
 .apps-container  {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
