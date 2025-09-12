@@ -61,6 +61,7 @@ img {
 .header-nav {
     display: flex;
    align-items: center;
+   padding: 24px 0;
 }
 .header-logo-link {
     color: #4d5ae5;
@@ -132,8 +133,6 @@ list-style: none;
 
 }
 .container-solution {
-max-width: 496px;
-
 
 }
 .solutions-main {
@@ -145,6 +144,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 margin-bottom: 48px;
 text-align: center; 
+ max-width: 496px;
+ /* padding-right: 472px; */
+ /* padding-left: 472px; */
 
 
 }
